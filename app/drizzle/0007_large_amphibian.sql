@@ -1,0 +1,1 @@
+ALTER TABLE `market_send_operations` ADD `authorized_at` integer;

@@ -1,0 +1,7 @@
+'use client';
+import { PolicyPage } from '@/components/policy-page';
+import { useAccess } from '@/hooks/use-access';
+export default function ContactPage() {
+  const {config} = useAccess(); const email = config?.supportEmail;
+  return <PolicyPage title="A human way to get help."><p>For a payment or account question, include your order reference and a short description. Do not send Google passwords, bank details, one-time passwords, private invitation links or file contents.</p><h2>Public support</h2>{email ? <p><a href={`mailto:${email}`}>{email}</a></p> : <p role="status">A public support email has not been configured for this development build. Live payment activation remains a launch prerequisite until the operator publishes a support channel.</p>}<h2>Connection problems</h2><p>Check that both devices use a supported browser and can reach one another. Use the same Wi-Fi or hotspot for the best chance of a local direct connection. Networks with client isolation, VPNs or restrictive firewalls may prevent pairing. Refresh can restore a pairing, but selected or interrupted files must be sent again.</p><h2>Saving</h2><p>Choose a destination folder on browsers that support it. Other browsers have a 64 MiB total pending/unsaved download budget per tab. Folder preparation requires browser support and enough temporary local storage. If it is unavailable, create a ZIP with your file manager. Download handoff and confirmed direct saving are shown separately.</p></PolicyPage>;
+}

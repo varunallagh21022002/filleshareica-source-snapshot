@@ -1,0 +1,1 @@
+CREATE UNIQUE INDEX `market_orders_pending_cashfree_idx` ON `market_orders` (`account_id`) WHERE provider = 'cashfree' AND status = 'pending';

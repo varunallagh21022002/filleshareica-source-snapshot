@@ -1,0 +1,1 @@
+ALTER TABLE `market_device_changes` ADD `operation_id` text NOT NULL;

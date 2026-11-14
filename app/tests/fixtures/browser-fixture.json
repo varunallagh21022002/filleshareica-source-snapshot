@@ -1,0 +1,20 @@
+{
+  "secret": "AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8",
+  "room": "12345678-1234-4234-8234-123456789abc",
+  "generation": "87654321-4321-4321-8321-0123456789ab",
+  "keyHex": "74553453fd5b1d867e7a5a71fa63e27391ba6ccf60b729b829a1cb5f2788d316",
+  "envelope": "{\"v\":1,\"sender\":\"host\",\"generation\":\"87654321-4321-4321-8321-0123456789ab\",\"sequence\":7,\"nonce\":\"AAECAwQFBgcICQoL\",\"ciphertext\":\"XV1qX2_9CM080bZTabimN_jqxCafPPAC4Hyv9Mr06wnuxRfJlqlbqIHyFj7IunRwdS8H4zGqUWIEOlHaYYAX8gE2mUU4tMGzM_nSwrl-TYkSo9ehulL4xlXvtEUN1N9v3Ofu5VLI3XDncGM6oTg2LQhB4PkRyv_AW90PY1rJdcAg63zcULfsiVdt-I00fOmqa_Orls9dOh-5j_af3VPkECa-D3K4pg-c4u21rg\"}",
+  "message": {
+    "type": "candidate",
+    "connectionRevision": 2,
+    "candidate": {
+      "candidate": "candidate:1 1 UDP 2122260223 192.0.2.1 50000 typ host",
+      "sdpMid": "0",
+      "sdpMLineIndex": 0
+    }
+  },
+  "batch": "00112233-4455-4677-8899-aabbccddeeff",
+  "file": "ffeeddcc-bbaa-4988-8776-554433221100",
+  "offset": 4294967297,
+  "payload": "AAF_gP8"
+}
